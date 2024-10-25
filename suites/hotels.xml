@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="hotels.api">
+        <classes>
+            <class name="hotels.api.HotelManager">
+                <methods>
+                    <include name="AddHotel"/>
+                    <include name="GetHotels"/>
+                    <include name="GetHotelById"/>
+                    <include name="UpdateHotel"/>
+                    <include name="DeleteHotel"/>
+                    <include name="searchHotels"/>
+                </methods>
+                <parameter name="searchKeyword" value="HolidayInn" />
+                <parameter name="expectedResults" value="10" />
+
+            </class>
+        </classes>
+    </test>
+</suite>

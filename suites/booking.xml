@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="booking.api">
+        <classes>
+            <class name="booking.api.HotelRooms">
+                <methods>
+                    <include name="GetRoomAvailability"/>
+                    <include name="GetRoomFacility"/>
+                </methods>
+            </class>
+            <class name="booking.api.RoomBooking">
+                <methods>
+                    <include name="GetCurrentBooking"/>
+                    <include name="NewBooking"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
