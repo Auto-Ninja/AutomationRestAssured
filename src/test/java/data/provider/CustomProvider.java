@@ -7,7 +7,7 @@ public class CustomProvider extends APIBase {
     @DataProvider(name = "BookingProvider")
     public String[] GetBookingIDs(){
         return new String[]{
-                "B00-101","B00-102","B00-103","B00-104","B00-105"
+                "B00-101","B00-102","B00-103","B00-104","B00-105","B00-106","B00-107","B00-108"
         };
     }
 
