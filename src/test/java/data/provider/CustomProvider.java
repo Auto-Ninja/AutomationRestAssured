@@ -18,7 +18,8 @@ public class CustomProvider extends APIBase {
                 {"Room 12","East Side"},
                 {"Room 21","North Side"},
                 {"Room 22","North Side"},
-                {"Room 23","North Side"}
+                {"Room 23","North Side"},
+             {"Room 24","North Side"}
         };
     }
 }
